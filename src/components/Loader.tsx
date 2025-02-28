@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const Loader = ({ color = "white" }) => {
+const Loader = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-white">
       <motion.div
